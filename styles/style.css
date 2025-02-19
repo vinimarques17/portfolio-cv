@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --firts-color: #1E201E;
+    --second-color: #ECDFCC;
+    --third-color: #697565;
+    --hover-color: #3C3D37;
+    --first-font-color: "Krona One", sans-serif;
+    --second-font-color: "Montserrat", sans-serif
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--firts-color);
+    color: var(--second-color);
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    font-family: var(--second-font-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.layout{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.layout__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.highlight-title{
+    color: var(--third-color);
+}
+
+.layout__content__title{
+    font-size: 2.25rem;
+    font-family: var(--first-font-color);
+}
+
+.layout__content__text{
+    font-size: 1.5rem;
+    font-family: var(--second-font-color);
+    font-weight: 400;
+}
+
+.layout__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.layout__links__subtitle{
+    font-family: var(--first-font-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.layout__links__button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--third-color);
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: var(--second-color);
+    font-family: var(--second-font-color);
+    
+}
+
+.layout__links__button:hover{
+    background-color: var(--hover-color);
+}
+
+.layout__profile{
+    width: 40%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.footer{
+    color: var(--firts-color);
+    background-color: var(--third-color);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--second-font-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    .header{
+        padding: 10% ;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+    
+    .layout{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .layout__content{
+        width: 100%;
+    }
+
+    
+}
