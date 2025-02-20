@@ -7,7 +7,7 @@
 </h2>
   <p>Este projeto tem como intuito juntar o início da minha trajetória e a divulgação do meu perfil profissional, unindo dois pontos importantes.</p>
   <p>Aproveite e conheça um pouco sobre mim 
-    <a href=https://portfolio-cv-virid.vercel.app/>aqui.</a>
+    <a href=https://vinimarques17.github.io/portfolio-cv/>aqui.</a>
   </p>
 
 <h2>
