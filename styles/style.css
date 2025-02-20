@@ -13,10 +13,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
+    
     background-color: var(--firts-color);
     color: var(--second-color);
 }
@@ -30,12 +31,19 @@ body {
     gap: 80px;
 }
 
+.header__menu__link:hover{
+    background-color: var(--hover-color);
+    transition: .3s linear normal;
+}
+
 .header__menu__link{
     font-family: var(--second-font-color);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--third-color);
     text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 .layout{
@@ -104,7 +112,7 @@ body {
 }
 
 .layout__profile{
-    width: 40%;
+    width: 36%;
     height: auto;
     border-radius: 20%;
 }
