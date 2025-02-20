@@ -3,7 +3,7 @@
 </h1>
 
 <h2>
-  🚀 Começando
+  🚀 Começando 	&#128511;
 </h2>
   <p>Este projeto tem como intuito juntar o início da minha trajetória e a divulgação do meu perfil profissional, unindo dois pontos importantes.</p>
   <p>Aproveite e conheça um pouco sobre mim 
