@@ -144,6 +144,39 @@ body {
     .layout__content{
         width: 100%;
     }
+    
+}
 
+.layout__carrer{
+    height: 100vh;
+    text-align: center;
+}
+
+.layout__carrer__position{
+    padding: 8% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25rem;
+    font-family: var(--first-font-color);
+}
+
+.layout__carrer__location{
+    font-family: var(--first-font-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+
+.layout__carrer__list{
+    display: block;
+    
+}
+
+.layout__carrer__object{
+    font-size: 1.5rem;
+    font-family: var(--second-font-color);
+    font-weight: 400;
+    padding-bottom: 1%;
     
 }
